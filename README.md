@@ -15,12 +15,7 @@ Built with **PyTorch**, this project demonstrates reinforcement learning fundame
 
 ---
 
-## 📂 Project Structure
 
-<br>
-
-cartpole-dqn/ │<br>├── README.md # Project overview, setup, usage instructions <br>├── requirements.txt # Python dependencies <br>├── .gitignore # Ignore checkpoints, videos, etc. <br>│ <br>├── src/ # Source code <br>│ <br>├── init.py │ <br>├── dqn.py # DQN network definition <br>│ <br>├── replay_buffer.py # Replay buffer implementation <br>│ <br>├── train.py # Training loop <br>│ <br>├── test.py # Evaluation / rendering loop <br>│ └── utils.py # Helper functions (plotting, epsilon schedule, etc.) <br>│ <br>├── notebooks/ # Jupyter/Colab notebooks <br>│ └── DQN_CartPole.ipynb # Exploratory notebook <br>│ <br>├── results/ # Logs, plots, saved models <br>│ <br>├── models/ # Saved checkpoints (.pth files) <br>│ <br>├── videos/ # Recorded agent gameplay <br>│ └── plots/ # Reward curves, training metrics <br>│ └── LICENSE # License file (MIT, Apache 2.0, etc.)
----
 
 ## ⚙️ Installation
 Clone the repo and install dependencies:
