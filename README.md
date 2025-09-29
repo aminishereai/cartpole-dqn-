@@ -13,9 +13,9 @@ Built with **PyTorch**, this project demonstrates reinforcement learning fundame
 - Training loop with reward tracking
 - Evaluation script with video recording of the trained agent
 
-
-
 ---
+
+
 
 ## ⚙️ Installation
 Clone the repo and install dependencies:
