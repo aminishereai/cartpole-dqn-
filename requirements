@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+gymnasium[classic_control]
+matplotlib
+pandas
+imageio
