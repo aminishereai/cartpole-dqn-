@@ -13,10 +13,6 @@ Built with **PyTorch**, this project demonstrates reinforcement learning fundame
 - Training loop with reward tracking
 - Evaluation script with video recording of the trained agent
 
----
-
-## 📂 Project Structure
-cartpole-dqn/ │ ├── src/ │ ├── dqn.py # DQN network definition │ ├── replay_buffer.py # Replay buffer implementation │ ├── train.py # Training loop │ ├── test.py # Evaluation / rendering │ └── utils.py # Helper functions (plotting, epsilon schedule) │ ├── notebooks/ │ └── DQN_CartPole.ipynb # Exploratory notebook │ ├── results/ │ ├── models/ # Saved checkpoints │ ├── videos/ # Recorded gameplay │ └── plots/ # Reward curves │ ├── requirements.txt # Dependencies ├── LICENSE # MIT License └── README.md # This file
 
 
 ---
