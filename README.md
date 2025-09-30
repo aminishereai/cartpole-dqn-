@@ -35,9 +35,7 @@ Here’s the trained agent balancing the pole:
 ## 🚀 Getting Started
 
 ### Installation
-```
-
-bash
+```bash
 git clone https://github.com/yourusername/dqn-cartpole.git
 cd dqn-cartpole
 pip install -r requirements.txt
