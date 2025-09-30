@@ -35,13 +35,18 @@ Here’s the trained agent balancing the pole:
 ## 🚀 Getting Started
 
 ### Installation
+```
+
+bash
 git clone https://github.com/yourusername/dqn-cartpole.git
 cd dqn-cartpole
 pip install -r requirements.txt
+```
 
 ### Training
+```bash
 python train.py
-
+```
 ### Watching the Agent
 # If you want to see the trained agent play, run the following inside your notebook
 # or modify train.py to load a saved model and call env.render():
