@@ -46,16 +46,18 @@ pip install -r requirements.txt
 python train.py
 ```
 ### Watching the Agent
+```python
 # If you want to see the trained agent play, run the following inside your notebook
 # or modify train.py to load a saved model and call env.render():
 # Example (inside Python):
-#   model.load_state_dict(torch.load("checkpoints/dqn_cartpole.pth"))
-#   state, _ = env.reset()
-#   for _ in range(200):
-#       action = model(torch.tensor(state, dtype=torch.float32).unsqueeze(0)).argmax().item()
-#       state, reward, done, _, _ = env.step(action)
-#       env.render()
-#       if done: break
+   model.load_state_dict(torch.load("checkpoints/dqn_cartpole.pth"))
+   state, _ = env.reset()
+   for _ in range(200):
+       action = model(torch.tensor(state, dtype=torch.float32).unsqueeze(0)).argmax().item()
+       state, reward, done, _, _ = env.step(action)
+       env.render()
+       if done: break
+```
 ---
 
 ## 📚 What I Learned
